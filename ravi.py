@@ -1,6 +1,5 @@
 def func(a):
     count=0
-    
     for i in range(len(a)):
         
         if a[i]!=0:
@@ -12,7 +11,6 @@ def func(a):
 
 
 a=[0,1,2,3,0,9,0]
-
 func(a)
 
 print(a)
