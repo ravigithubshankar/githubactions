@@ -17,4 +17,4 @@ jobs:
 
     - name: Run Python script
       run: |
-        python your_script.py  # Replace "your_script.py" with your script's filename
+        python ravi.py  # Replace "your_script.py" with your script's filename
