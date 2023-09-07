@@ -1,4 +1,13 @@
 import json
+def func(a):
+    count = 0
+    for i in range(len(a)):
+        if a[i] != 0:
+            a[count] = a[i]
+            count += 1
+    for j in range(count, len(a)):
+        a[j] = 0
+
 with open("test_cases.json", "r") as file:
     test_cases = json.load(file)
 
