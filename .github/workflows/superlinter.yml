@@ -1,4 +1,4 @@
-name: Run Python script
+name: Run Python script and tests
 
 on: [push]
 
@@ -18,3 +18,10 @@ jobs:
     - name: Run Python script
       run: |
         python ravi.py  # Replace "your_script.py" with your script's filename
+
+
+    - name: Run Python tests
+      run: |
+        python test_case.py
+
+  
