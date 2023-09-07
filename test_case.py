@@ -1,3 +1,4 @@
+import json
 with open("test_cases.json", "r") as file:
     test_cases = json.load(file)
 
